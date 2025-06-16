@@ -1,19 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Efe Civisoken</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <style>
-    body { font-family: sans-serif; padding: 40px; line-height: 1.6; }
-    h1 { color: #333; }
-    a { color: #007acc; text-decoration: none; }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>👋 Hey, I’m Efe</h1>
-  <p>Welcome to my personal website.</p>
-  <p>I'm studying Electrical & Computer Engineering + Economics @ Lafayette College. I’m deeply interested in solving hard problems at scale.</p>
-  <p><a href="https://github.com/efecivisoken" target="_blank">My GitHub</a> | <a href="https://linkedin.com/in/efec0" target="_blank">LinkedIn</a></p>
+  <nav>
+    <span class="logo">Efe</span>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><button id="modeToggle">🌙</button></li>
+    </ul>
+  </nav>
+
+  <header class="hero">
+    <img src="assets/imgs/avatar.jpg" alt="avatar">
+    <h1>Hey, I’m Efe 👋</h1>
+    <p>ECE + Econ @ Lafayette • quant-curious builder.</p>
+    <div class="cta">
+      <a class="btn" href="#projects">See my work</a>
+      <a class="btn outline" href="assets/resume.pdf" target="_blank">Résumé</a>
+    </div>
+  </header>
+
+  <section id="about">
+    <h2>About me</h2>
+    <p>I enjoy turning messy real-world problems into elegant technical solutions—from FPGA design to algorithmic trading.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Selected projects</h2>
+    <div class="grid" id="projectGrid"></div>
+  </section>
+
+  <section id="contact">
+    <h2>Let’s connect</h2>
+    <p>
+      <a href="mailto:efecivisoken@gmail.com">Email</a> •
+      <a href="https://github.com/EfeCivisoken" target="_blank">GitHub</a> •
+      <a href="https://linkedin.com/in/YOUR-LINK" target="_blank">LinkedIn</a>
+    </p>
+  </section>
+
+  <footer>© <span id="year"></span> Efe Civisoken</footer>
+  <script src="script.js"></script>
 </body>
 </html>

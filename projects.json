@@ -1,0 +1,8 @@
+[
+  {
+    "title": "FPGA Traffic-Light",
+    "desc": "One-hot FSM in Verilog; 50 MHz clock, debounced inputs.",
+    "img": "assets/imgs/project-tl.png",
+    "link": "https://github.com/EfeCivisoken/traffic-light"
+  }
+]
