@@ -24,8 +24,8 @@
     "link": "https://github.com/EfeCivisoken/cs150-projects-and-labs"
   },
   {
-    "title": "LeetCode Practice",
-    "desc": "Collection of algorithmic coding problems in mostly C++ and Python, systematically categorized by topic and difficulty. This will be updated soon!",
+    "title": "LeetCode Practice (TO BE UPDATED)",
+    "desc": "Collection of algorithmic coding problems in mostly C++ and Python, systematically categorized by topic and difficulty.",
     "img": "assets/imgs/project-leetcode.png",
     "link": "https://github.com/EfeCivisoken/leetcode-practice"
   }
