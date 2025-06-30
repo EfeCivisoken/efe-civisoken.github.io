@@ -1,8 +1,33 @@
 [
   {
-    "title": "FPGA Traffic-Light",
-    "desc": "One-hot FSM in Verilog; 50 MHz clock, debounced inputs.",
-    "img": "assets/imgs/project-tl.png",
-    "link": "https://github.com/EfeCivisoken/traffic-light"
+    "title": "MediTanzania Project: CS205 Capstone",
+    "desc": "UNICEF-backed interactive & corruption-resistant website/database platform for improving public healthcare in Tanzania. Built collaboratively by a team of four with JS, UX design, citizen/staff portals and incorporates ML-based sentiment analysis for handling text-based aspect of surveys",
+    "img": "assets/imgs/project-meditanzania.png",
+    "link": "https://github.com/EfeCivisoken/meditanzania-project"
+  },
+  {
+    "title": "CS205 Labs",
+    "desc": "Advanced JavaScript labs from CS205: includes full-stack components and data-driven web features.",
+    "img": "assets/imgs/project-cs205.png",
+    "link": "https://github.com/EfeCivisoken/cs205-labs"
+  },
+  {
+    "title": "ECE211 Digital Circuits",
+    "desc": "Sequential/Combinational circuit logic design, FSMs (from a holistic traffic light management system to customized Mustang LED designs), and Verilog circuits. Also includes testbenches, simulation, and lab report files.",
+    "img": "assets/imgs/project-ece211.png",
+    "link": "https://github.com/EfeCivisoken/ece211-digital-circuits"
+  },
+  {
+    "title": "CS150 Projects and Labs",
+    "desc": "Object-oriented Java programming LABs for data structure/algorithm implementations and sophisticated PROJECTs on complex data structures and truck transport simulation.",
+    "img": "assets/imgs/project-cs150.png",
+    "link": "https://github.com/EfeCivisoken/cs150-projects-and-labs"
+  },
+  {
+    "title": "LeetCode Practice",
+    "desc": "Collection of algorithmic coding problems in mostly C++ and Python, systematically categorized by topic and difficulty. This will be updated soon!",
+    "img": "assets/imgs/project-leetcode.png",
+    "link": "https://github.com/EfeCivisoken/leetcode-practice"
   }
+
 ]
